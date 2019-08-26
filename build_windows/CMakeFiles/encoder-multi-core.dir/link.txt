@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\encoder-multi-core.dir/objects.a
-C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\encoder-multi-core.dir/objects.a @CMakeFiles\encoder-multi-core.dir\objects1.rsp
-C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe    -Wl,--whole-archive CMakeFiles\encoder-multi-core.dir/objects.a -Wl,--no-whole-archive  -o encoder-multi-core.exe -Wl,--out-implib,libencoder-multi-core.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\encoder-multi-core.dir\linklibs.rsp
