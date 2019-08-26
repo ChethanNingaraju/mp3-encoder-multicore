@@ -73,7 +73,6 @@ uint32_t EncWAV::encodeFile(const std::string fileName)
 
     //Read input data into PCM buffer
     short int pcmBuffer[PCM_IN_SIZE * 2];
-
     unsigned char mp3OutBuffer[MP3_BUFFER_SIZE];
 
 
@@ -125,7 +124,6 @@ void *EncWAV::encodeFileMultithread()
 
         pthread_mutex_unlock(&m_lock);
 
-        std::cout << "curFileProcessId " << curFileProcessId << std::endl;
         if(curFileProcessId >= 0)
         {
             //complete processing this file
@@ -148,6 +146,8 @@ void EncWAV::process()
 
     std::vector<pthread_t> allThread(numActualthread);
 
+    std::cout << "***********************************" << std::endl;
+    std::cout << "Creating number of threads = " << numActualthread << std::endl;
     //Create the optimal number of threads
     for(uint32_t i = 0; i < numActualthread; i++)
     {
