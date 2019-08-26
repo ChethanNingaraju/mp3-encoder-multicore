@@ -1,0 +1,15 @@
+external/lame-3.100
+external/lame-3.100/ACM
+external/lame-3.100/ACM/ADbg
+external/lame-3.100/ACM/ddk
+external/lame-3.100/ACM/tinyxml
+external/lame-3.100/build_linux/include/lame
+external/lame-3.100/Dll
+external/lame-3.100/dshow
+external/lame-3.100/frontend
+external/lame-3.100/include
+external/lame-3.100/libmp3lame
+external/lame-3.100/libmp3lame/i386
+external/lame-3.100/libmp3lame/vector
+external/lame-3.100/mac
+external/lame-3.100/mpglib
