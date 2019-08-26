@@ -29,7 +29,14 @@ make
 ./encoder-multi-core ../data
 ```
 
-## Windows Instruction
+## 2.3.1 Windows Instruction
 ```
+cd build_windows
 cmake -G "MinGW Makefiles" ..
+mingw32-make.exe
+```
+
+## 2.3.1 Windows Run
+```
+.\encoder-multi-core.exe ..\data
 ```
