@@ -2,7 +2,7 @@
 
 ## 1. General Usage
 
-This program compiles audio file in .wav format to mp3 files using LAME encoder. 
+This program encodes audio file in .wav format to mp3 files using LAME encoder. 
 
 ```
 ./encoder-multi-core <directory with .wav files>
