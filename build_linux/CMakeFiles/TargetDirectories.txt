@@ -1,3 +1,0 @@
-/home/cningaraju/personal/projects/mp3-encoder-multicore/build_linux/CMakeFiles/rebuild_cache.dir
-/home/cningaraju/personal/projects/mp3-encoder-multicore/build_linux/CMakeFiles/encoder-multi-core.dir
-/home/cningaraju/personal/projects/mp3-encoder-multicore/build_linux/CMakeFiles/edit_cache.dir

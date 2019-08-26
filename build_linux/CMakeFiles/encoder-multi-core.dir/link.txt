@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/encoder-multi-core.dir/src/encwav.cpp.o CMakeFiles/encoder-multi-core.dir/src/main.cpp.o  -o encoder-multi-core ../external/lame-3.100/build_linux/lib/libmp3lame.a -lpthread 
