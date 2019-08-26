@@ -10,14 +10,17 @@ This program compiles audio file in .wav format to mp3 files using LAME encoder.
 ## 2.Linux Instructions
 
 ### 2.1 Build the file
+'''
 cd build_linux
 cmake ..
 make
-
+'''
 ### 2.3 Run
+'''
 ./encoder-multi-core ../data
-
+'''
 
 ## Windows Instruction
-
+'''
 cmake -G "MinGW Makefiles" ..
+'''
